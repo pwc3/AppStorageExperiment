@@ -38,3 +38,23 @@ extension PreferenceValue: Codable {
         try container.encode(value, forKey: .value)
     }
 }
+
+extension PreferenceValue: RawRepresentable {
+    init?(rawValue: String) {
+        do {
+            self = try JSONDecoder().decode(PreferenceValue.self, from: Data(rawValue.utf8))
+        }
+        catch {
+            return nil
+        }
+    }
+
+    var rawValue: String {
+        do {
+            return try String(decoding: JSONEncoder().encode(self), as: UTF8.self)
+        }
+        catch {
+            return "{}"
+        }
+    }
+}
