@@ -12,6 +12,7 @@
 		C527E00529D5CFCF0088322C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C527E00429D5CFCF0088322C /* Assets.xcassets */; };
 		C527E00829D5CFCF0088322C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C527E00729D5CFCF0088322C /* Preview Assets.xcassets */; };
 		C527E00F29D5D3320088322C /* AppStorageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527E00E29D5D3320088322C /* AppStorageKey.swift */; };
+		C527E01329D5EE7C0088322C /* PreferenceValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527E01229D5EE7C0088322C /* PreferenceValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C527E00429D5CFCF0088322C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C527E00729D5CFCF0088322C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C527E00E29D5D3320088322C /* AppStorageKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageKey.swift; sourceTree = "<group>"; };
+		C527E01229D5EE7C0088322C /* PreferenceValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				C527E00029D5CFCE0088322C /* AppStorageExperimentApp.swift */,
 				C527E00229D5CFCE0088322C /* Views.swift */,
 				C527E00E29D5D3320088322C /* AppStorageKey.swift */,
+				C527E01229D5EE7C0088322C /* PreferenceValue.swift */,
 				C527E00429D5CFCF0088322C /* Assets.xcassets */,
 				C527E00629D5CFCF0088322C /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C527E01329D5EE7C0088322C /* PreferenceValue.swift in Sources */,
 				C527E00F29D5D3320088322C /* AppStorageKey.swift in Sources */,
 				C527E00329D5CFCE0088322C /* Views.swift in Sources */,
 				C527E00129D5CFCE0088322C /* AppStorageExperimentApp.swift in Sources */,
